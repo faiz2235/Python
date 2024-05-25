@@ -83,6 +83,11 @@ class Tableau:
         # Does objective row only contain (non)-negative values?
         self.stop_iter = False
 
+    #print a message that says how are you doing
+    def __str__(self) -> str:
+        return "I am doing well"
+
+
     def generate_col_titles(self) -> list[str]:
         """Generate column titles for tableau of specific dimensions
 

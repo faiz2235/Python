@@ -16,7 +16,7 @@ def good_file_paths(top_dir: str = ".") -> Iterator[str]:
                 continue
             if os.path.splitext(filename)[1] in (".py", ".ipynb"):
                 yield os.path.join(dir_path, filename).lstrip("./")
-
+#this is a comment
 
 def md_prefix(i):
     return f"{i * '  '}*" if i else "\n##"

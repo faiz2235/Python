@@ -34,11 +34,13 @@ def make_lowpass(
     a0 = 1 + alpha
     a1 = -2 * _cos
     a2 = 1 - alpha
+    a3 = 0
 
     filt = IIRFilter(2)
     filt.set_coefficients([a0, a1, a2], [b0, b1, b0])
     return filt
 
+    
 
 def make_highpass(
     frequency: int,
