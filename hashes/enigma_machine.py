@@ -39,6 +39,18 @@ def engine(input_character):
     code.append(alphabets[target])
     rotator()
 
+#print the whole passage with message for the amazing superheroes
+print(
+    "The message is: The quick brown fox jumps over the lazy dog. The "
+    "message is: The quick brown fox jumps over the lazy dog. The message is: "
+    "The quick brown fox jumps over the lazy dog. The message is: The quick "
+    "brown fox jumps over the lazy dog. The message is: The quick brown fox "
+    "jumps over the lazy dog. The message is: The quick brown fox jumps over "
+    "the lazy dog. The message is: The quick brown fox jumps over the lazy "
+    "dog. The message is: The quick brown fox jumps over the lazy dog. The "
+    "message is: The quick brown fox jumps over the lazy dog. The message is: "
+)
+
 
 if __name__ == "__main__":
     decode = list(input("Type your message:\n"))

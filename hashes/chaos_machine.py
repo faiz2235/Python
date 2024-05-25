@@ -12,6 +12,11 @@ params_space: list[float] = []
 # Machine Time
 machine_time = 0
 
+#print message that the chaos machien is reade
+print("chaos machine is ready")
+
+#also print the sum of two numbers
+print(K[0] + K[1])
 
 def push(seed):
     global buffer_space, params_space, machine_time, K, m, t

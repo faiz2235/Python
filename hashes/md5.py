@@ -14,6 +14,23 @@ For more info, see https://en.wikipedia.org/wiki/MD5
 from collections.abc import Generator
 from math import sin
 
+#create a function to add 3 numbers
+def sum_32(a: int, b: int) -> int:
+    """
+    Add two numbers as 32-bit ints.
+
+    Arguments:
+        a {[int]} -- [first given int]
+        b {[int]} -- [second given int]
+
+    Returns:
+        (a + b) as an unsigned 32-bit int
+
+    >>> sum_32(1, 1)
+    2
+    >>> sum_32(2, 3)
+    5
+    
 
 def to_little_endian(string_32: bytes) -> bytes:
     """

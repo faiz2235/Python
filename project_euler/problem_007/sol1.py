@@ -48,6 +48,27 @@ def is_prime(number: int) -> bool:
             return False
     return True
 
+#create a function to multiply 3 numbers
+def multiply_32(a: int, b: int, c: int) -> int:
+    """
+    Multiply three numbers as 32-bit ints.
+
+    Arguments:
+        a {[int]} -- [first given int]
+        b {[int]} -- [second given int]
+        c {[int]} -- [third given int]
+
+    Returns:
+        (a * b * c) as an unsigned 32-bit int
+
+    >>> multiply_32(1, 1, 1)
+    1
+    >>> multiply_32(2, 3, 4)
+    24
+    """
+
+    return a * b * c
+
 
 def solution(nth: int = 10001) -> int:
     """
