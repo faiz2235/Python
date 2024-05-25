@@ -58,3 +58,5 @@ def half_adder(bit0: int, bit1: int) -> qiskit.result.counts.Counts:
 if __name__ == "__main__":
     counts = half_adder(1, 1)
     print(f"Half Adder Output Qubit Counts: {counts}")
+
+#end

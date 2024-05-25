@@ -8,6 +8,7 @@ using qubits instead of classical bits. The generated key is the result
 of simulating a quantum circuit. Our algorithm to construct the circuit
 is as follows:
 
+Alice generates two binary strings.
 Alice generates two binary strings. One encodes the basis for each qubit:
 
  - 0 -> {0,1} basis.
